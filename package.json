@@ -1,5 +1,6 @@
 {
   "name": "test-vite",
+  "homepage": "https://dimitry-prog.github.io/test-auth/",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -7,8 +8,8 @@
     "dev": "vite",
     "build": "tsc && vite build",
     "preview": "vite preview",
-    "predeploy" : "npm run build",
-    "deploy" : "gh-pages -d dist"
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "@reduxjs/toolkit": "^1.9.3",

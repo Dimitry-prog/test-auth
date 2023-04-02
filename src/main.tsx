@@ -11,7 +11,7 @@ import {BrowserRouter} from "react-router-dom";
 ReactDOM.createRoot(document.getElementById('root') as HTMLElement).render(
   <React.StrictMode>
     <Provider store={store}>
-      <BrowserRouter>
+      <BrowserRouter basename="/test-auth/">
         <App/>
         <ToastContainer/>
       </BrowserRouter>

@@ -1,6 +1,5 @@
 {
   "name": "test-vite",
-  "homepage": "https://dimitry-prog.github.io/test-auth/",
   "private": true,
   "version": "0.0.0",
   "type": "module",

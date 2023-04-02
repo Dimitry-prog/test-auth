@@ -1,5 +1,5 @@
 import axios from "axios";
-import {BASE_USER_URL, baseURL} from "../utils/constants";
+import {BASE_USER_URL} from "../utils/constants";
 import {createAsyncThunk} from "@reduxjs/toolkit";
 import {handleRequest} from "./api";
 import {IUser} from "../types/userTypes";

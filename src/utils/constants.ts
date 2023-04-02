@@ -10,11 +10,3 @@ export const navLinks = [
   { path: 'signin', text: 'Вход', protected: false },
   { path: 'profile', text: 'Профиль', protected: true },
 ];
-
-export let baseURL = '';
-
-if (process.env.NODE_ENV === 'development') {
-  baseURL = 'http://localhost:8000';
-} else {
-  baseURL = 'https://tubular-arithmetic-7e0411.netlify.app/data';
-}

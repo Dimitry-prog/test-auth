@@ -1,5 +1,5 @@
 import axios from "axios";
-import {BASE_AUTH_URL, baseURL} from "../utils/constants";
+import {BASE_AUTH_URL} from "../utils/constants";
 import {AuthData, ResponseLoginUser, ResponseRegisterUser} from "../types/authTypes";
 import { createAsyncThunk } from "@reduxjs/toolkit";
 import {handleRequest} from "./api";

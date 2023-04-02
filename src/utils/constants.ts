@@ -16,5 +16,5 @@ export let baseURL = '';
 if (process.env.NODE_ENV === 'development') {
   baseURL = 'http://localhost:8000';
 } else {
-  baseURL = 'https://tubular-arithmetic-7e0411.netlify.app/';
+  baseURL = 'https://tubular-arithmetic-7e0411.netlify.app/data';
 }

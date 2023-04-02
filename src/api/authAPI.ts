@@ -23,7 +23,7 @@ export const registerUser = createAsyncThunk<ResponseRegisterUser, AuthData, { r
 export const loginUser = createAsyncThunk<ResponseLoginUser, AuthData, { rejectValue: string }>(
   'auth/login',
   async (authData, { rejectWithValue }) => {
-    const requestFunc = () => authApi.post('/signin.json', authData);
+    const requestFunc = () => authApi.post('signin.json', authData);
     return handleRequest(requestFunc, rejectWithValue, "Добро пожаловать");
   }
 );

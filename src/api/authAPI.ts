@@ -5,7 +5,7 @@ import { createAsyncThunk } from "@reduxjs/toolkit";
 import {handleRequest} from "./api";
 
 export const authApi = axios.create({
-  baseURL: baseURL,
+  baseURL: BASE_AUTH_URL,
   withCredentials: true,
   headers: {
     'Content-Type': 'application/json',

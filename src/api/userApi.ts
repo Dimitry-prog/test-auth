@@ -7,7 +7,7 @@ import {IUser} from "../types/userTypes";
 const token = JSON.parse(localStorage.getItem('token') ?? 'null');
 
 export const userApi = axios.create({
-  baseURL: baseURL,
+  baseURL: BASE_USER_URL,
   withCredentials: true,
   headers: {
     'Content-Type': 'application/json',

@@ -1,11 +1,11 @@
 import axios from "axios";
-import {BASE_AUTH_URL} from "../utils/constants";
+import {BASE_AUTH_URL, baseURL} from "../utils/constants";
 import {AuthData, ResponseLoginUser, ResponseRegisterUser} from "../types/authTypes";
 import { createAsyncThunk } from "@reduxjs/toolkit";
 import {handleRequest} from "./api";
 
 export const authApi = axios.create({
-  baseURL: BASE_AUTH_URL,
+  baseURL: baseURL,
   withCredentials: true,
   headers: {
     'Content-Type': 'application/json',
